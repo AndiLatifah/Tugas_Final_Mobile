@@ -1,4 +1,4 @@
-package com.d121211086.Doaapp
+package com.d121211086.Doaapp.main
 
 import android.app.Application
 import  com.d121211086.Doaapp.data.AppContainer

@@ -5,7 +5,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("/api")
+    @GET("api")
     suspend fun getDoa(): GetDoaResponse
 
 }

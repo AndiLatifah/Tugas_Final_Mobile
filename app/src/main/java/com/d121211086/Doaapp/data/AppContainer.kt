@@ -13,7 +13,10 @@ interface AppContainer {
 
 class DefaultAppContainer: AppContainer {
 
-    private val BASE_URL = "https://doa-doa-api-ahmadramadhan.fly.dev"
+    private val BASE_URL = "https://doa-doa-api-ahmadramadhan.fly.dev/"
+    val json = Json {
+        ignoreUnknownKeys = true
+    }
 
     private val retrofit = Retrofit.Builder()
         .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
