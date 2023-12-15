@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.d121211086.Doaapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.d121211086.Doaapp"
@@ -68,7 +68,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("io.coil-kt:coil-compose:2.4.0")
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     // Kotlin serialization
