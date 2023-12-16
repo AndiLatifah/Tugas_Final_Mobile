@@ -1,4 +1,4 @@
-package com.d121211086.Doaapp
+package com.d121211086.Minuman
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

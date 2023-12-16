@@ -1,8 +1,8 @@
-package com.d121211086.Doaapp.main
+package com.d121211086.Minuman.main
 
 import android.app.Application
-import  com.d121211086.Doaapp.data.AppContainer
-import  com.d121211086.Doaapp.data.DefaultAppContainer
+import  com.d121211086.Minuman.data.AppContainer
+import  com.d121211086.Minuman.data.DefaultAppContainer
 
 class MyApplication: Application() {
 

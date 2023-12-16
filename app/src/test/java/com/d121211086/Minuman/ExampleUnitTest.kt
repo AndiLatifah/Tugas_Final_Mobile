@@ -1,4 +1,4 @@
-package com.d121211086.Doaapp
+package com.d121211086.Minuman
 
 import org.junit.Test
 

@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Doa APP"
+rootProject.name = "Minuman APP"
 include(":app")
  

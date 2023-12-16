@@ -1,4 +1,4 @@
-package com.d121211086.Doaapp.ui.theme
+package com.d121211086.Minuman.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
